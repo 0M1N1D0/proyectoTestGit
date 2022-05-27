@@ -1,6 +1,6 @@
-
+from clientes import views
 from django.urls import path
 
-# urlpatterns = [
-#     path('', admin.site.urls),
-# ]
+urlpatterns = [
+    path('', views.index, name='index'),
+]
